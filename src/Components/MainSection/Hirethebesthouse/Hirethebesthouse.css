@@ -1,0 +1,77 @@
+.hire-best-container {
+  display: flex;
+  gap: 1rem;
+  padding: 40px 100px;
+  align-items: center;
+}
+
+.hire-best-first-card {
+  width: 50%;
+  display: flex;
+
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hire-best-numberpcard {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hire-best-number-single0card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-right: 1px solid lightgrey;
+  padding: 14px 30px;
+  /* background-color: red; */
+}
+
+.hire-best-number-single0card > div {
+  display: flex;
+  gap: 0.5rem;
+  color: #ff6600;
+  font-weight: 700;
+  align-items: center;
+}
+
+.hire-best-number-single0cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 14px 30px;
+  /* background-color: red; */
+}
+
+.hire-best-number-single0cards > div {
+  display: flex;
+  gap: 0.5rem;
+  color: #ff6600;
+  font-weight: 700;
+  align-items: center;
+}
+
+.hire-best-container > img {
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .hire-best-container {
+    padding: 40px;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .hire-best-first-card {
+    width: 100%;
+  }
+  .hire-best-first-card > h1 {
+    font-size: 7vw;
+  }
+  .hire-best-container > img {
+    width: 100%;
+  }
+  .hire-best-number-single0card {
+    border: none;
+  }
+}

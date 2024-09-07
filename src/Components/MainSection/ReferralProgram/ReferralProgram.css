@@ -1,0 +1,55 @@
+.referral-program-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 100px;
+}
+
+.referral-program-first-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 40%;
+}
+.referral-program-first-card > p {
+  font-weight: 600;
+}
+
+.referral-program-icons-card {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.referral-program-container > img {
+  width: 40%;
+}
+
+@media (max-width: 546px) {
+  .referral-program-container {
+    flex-direction: column;
+  }
+  .referral-program-first-card {
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+  }
+  .referral-program-icons-card > h1 {
+    font-size: 7.4vw;
+  }
+  .referral-program-first-card > p {
+    text-align: center;
+  }
+  .referral-program-container > img {
+    width: 100%;
+  }
+  .referral-program-container {
+    padding: 40px;
+  }
+}
+@media (min-width: 547px) and (max-width: 768px) {
+  .referral-program-container > img {
+    width: 70%;
+  }
+}

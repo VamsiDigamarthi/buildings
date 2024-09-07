@@ -1,0 +1,49 @@
+.about-our-leaders-container {
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-our-leaders-first-card {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-our-leaders-second-card {
+  display: flex;
+  gap: 2rem;
+  width: 45%;
+}
+
+.about-our-leader-second-firsr-card {
+  width: 50%;
+  display: flex;
+
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.about-our-leader-second-firsr-card > img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .about-our-leaders-container {
+    padding: 40px;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .about-our-leaders-first-card {
+    width: 100%;
+  }
+  .about-our-leaders-second-card {
+    width: 100%;
+  }
+}

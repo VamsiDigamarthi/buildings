@@ -1,0 +1,53 @@
+.faq-container {
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #fff6e9;
+}
+
+.faq-inner-card {
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.faq-inner-inner-card {
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.5rem; */
+}
+
+.faq-inner-inner-card > div {
+  padding: 6px;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  /* border: 2px solid red; */
+  background-color: #fafafa;
+  cursor: pointer;
+}
+.faq-inner-inner-card > div > :nth-child(1) {
+  margin-top: 5px;
+}
+
+.faq-inner-inner-card > div > p {
+  color: grey;
+  font-weight: 500;
+}
+
+.faq-inner-inner-card > p {
+  padding: 15px 30px;
+  background-color: #fff;
+  color: grey;
+  font-weight: 500;
+  color: #b5b5b5;
+}
+
+@media (max-width: 768px) {
+  .faq-container {
+    padding: 40px;
+  }
+}

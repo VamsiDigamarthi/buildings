@@ -1,0 +1,136 @@
+.contact-third-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 50px 100px;
+  background-color: #fffaed;
+}
+
+.contact-third-first-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.contact-third-first-second-card {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-third-first-second-single-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 40%;
+}
+.contact-third-first-second-single-card > p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.contact-third-first-second-single-inner-side {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  /* border: 2px solid red; */
+}
+
+.contact-third-first-second-single-inner-side > span {
+  width: 10px;
+  height: 10px;
+  background-color: #ff6600;
+  margin-top: 7px;
+}
+
+.contact-third-first-second-single-inner-side > div {
+  display: flex;
+  flex-direction: column;
+}
+.contact-third-first-second-single-inner-side > div > p {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.contact-third-first-second-single-inner-side > div > span {
+  font-size: 13px;
+  color: #ff6600;
+}
+
+.contact-third-second-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-third-second-card > p {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.contact-third-second-inner--card {
+  padding: 0px 50px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact-third-second-inner-single-card {
+  width: 230px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.const-third-second-inner-single-card-firysn {
+  display: flex;
+  gap: 0.5rem;
+  /* border: 2px solid yellow; */
+}
+.const-third-second-inner-single-card-firysn > span {
+  width: 9px;
+  height: 9px;
+  background-color: #ff6600;
+  margin-top: 6px;
+}
+
+.const-third-second-inner-single-card-firysn > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 90%;
+}
+
+.contact-third-second-inner-single-card > :nth-child(2) {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.contact-third-second-inner-single-card > :nth-child(2) > :nth-child(2) {
+  color: blue;
+}
+
+@media (max-width: 768px) {
+  .contact-third-container {
+    padding: 40px;
+  }
+  .contact-third-first-card {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  #contact-h1-style > h1 {
+    font-size: 6vw;
+  }
+  .contact-third-first-second-card {
+    width: 100%;
+  }
+  .contact-third-second-inner--card {
+    padding: 10px;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,77 @@
+.why-brick-container {
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.why-brick-container > h1 {
+  width: 40%;
+  font-family: "Roboto", sans-serif;
+}
+
+.why-brick-container > p {
+  width: 40%;
+}
+.why-brick-all-card {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: center;
+}
+
+.why-brick-sinlge-all-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 30px 20px;
+  background-color: #faece9;
+  width: 260px;
+  height: 360px;
+  align-items: center;
+}
+
+.why-brick-sinlge-all-card > img {
+  width: 80%;
+  height: 90%;
+  /* border: 2px solid red; */
+}
+
+.why-brick-sinlge-all-card > h3 {
+  font-size: 18px;
+}
+
+.why-brick-sinlge-all-card > p {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  line-height: 24px;
+}
+
+@media (max-width: 546px) {
+  .why-brick-container {
+    padding: 40px;
+  }
+  .why-brick-all-card {
+    flex-direction: column;
+  }
+  .why-brick-sinlge-all-card {
+    width: 100%;
+  }
+  .why-brick-container > h1 {
+    width: 100%;
+  }
+
+  .why-brick-container > p {
+    width: 100%;
+  }
+}
+
+@media (min-width: 546px) and (max-width: 768) {
+  .why-brick-sinlge-all-card {
+    width: 70%;
+  }
+}

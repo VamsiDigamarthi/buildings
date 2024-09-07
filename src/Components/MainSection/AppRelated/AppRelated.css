@@ -1,0 +1,81 @@
+.app-related-container {
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-related-container > div {
+  width: 100%;
+
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.app-related-border-top {
+  border-top: 2px dashed grey;
+  padding-top: 40px;
+}
+.app-related-border-bottom {
+  border-bottom: 2px dashed grey;
+  padding-bottom: 40px;
+}
+
+.app-related-first-card {
+  display: flex;
+  gap: 1rem;
+  width: 50%;
+  align-items: flex-start;
+  /* border: 2px solid red; */
+}
+
+.app-related-first-inner-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.app-related-first-inner-card > h1 {
+  font-size: 30px;
+  font-family: "Roboto" sans-serif;
+}
+
+.app-related-first-inner-card > p {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.app-related-list-item {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.app-related-list-item > p {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.app-related-container > div > img {
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .app-related-container {
+    flex-direction: column;
+    padding: 40px;
+  }
+  .app-related-container > div {
+    flex-direction: column;
+  }
+
+  .app-related-first-card {
+    width: 100%;
+  }
+  .app-related-container > div > img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,156 @@
+.detail-our-projects-main-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.detail-our-projects {
+  padding: 40px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.detail-our-projects-tabs {
+  display: flex;
+  gap: 3rem;
+  align-self: center;
+  margin-top: 40px;
+  font-weight: 600;
+}
+.detail-our-projects-tabs > p {
+  cursor: pointer;
+}
+
+.details-our-project-tab-click-main-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.details-our-project-tab-click-main-single-card {
+  width: 350px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 330px;
+}
+
+.details-our-project-tab-click-main-single-card > img {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.details-our-project-tab-text-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 20px;
+  color: grey;
+}
+
+.details-our-project-tab-click-main-single-card:hover
+  .details-our-project-tab-text-card {
+  background-color: #ff6600;
+}
+
+.details-our-project-tab-text-card > h3 {
+  font-weight: 600;
+}
+
+.details-our-project-tab-text-card > hr {
+  color: grey;
+}
+
+.details-our-project-tab-text-card > div {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  color: grey;
+  font-weight: 600;
+}
+
+.detail-our-project-contact-page {
+  width: 100%;
+  padding: 40px 100px;
+  background-color: #fff6e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-our-project-contact-inner-card {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* border: 2px solid red; */
+}
+
+.detail-our-project-contact-inner-card > h1 {
+  font-size: 39px;
+}
+
+.detail-our-project-contact-input-main-card {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+
+.detail-our-project-contact-input-main-card > div {
+  width: 50%;
+  background-color: transparent;
+}
+
+.inputBox {
+  background-color: transparent;
+}
+
+.inputBox input {
+  background-color: transparent;
+}
+
+.detail-our-project-btn-card {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.detail-our-project-contact-inner-card > p {
+  font-size: 12px;
+}
+
+@media (max-width: 767px) {
+  .detail-our-projects {
+    padding: 40px;
+  }
+  .detail-our-projects > p {
+    text-align: center;
+  }
+  .detail-our-projects-tabs {
+    gap: 1rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .detail-our-projects-tabs > p {
+    font-size: 3.3vw;
+  }
+  .detail-our-project-contact-page {
+    padding: 40px;
+  }
+  .detail-our-project-contact-inner-card {
+    width: 100%;
+  }
+  .detail-our-project-contact-inner-card > h1 {
+    font-size: 8vw;
+  }
+  .detail-our-project-contact-input-main-card {
+    flex-direction: column;
+  }
+  .detail-our-project-contact-input-main-card > div {
+    width: 100%;
+  }
+}

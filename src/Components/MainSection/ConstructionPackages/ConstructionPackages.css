@@ -1,0 +1,133 @@
+.construction-pack-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 20px 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff6f4;
+}
+
+.construction-pack-first-inner-card {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.construction-pack-container > p > select {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: #ff6600;
+}
+
+.construction-pack-main-card {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.constriction-pack-inner-card {
+  width: 33%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.constriction-pack-inner-card > h3 {
+  padding: 14px 5px;
+  background-color: #f15a29;
+  font-size: 18px;
+  color: #fff;
+  width: 100%;
+}
+
+.construct-pack-down-tabs {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.construct-pack-plus-icons-parents-card {
+  display: flex;
+  flex-direction: column;
+  /* gap: 1rem; */
+
+  border-bottom: 1px solid lightgrey;
+}
+.construct-plan-plus-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 5px;
+}
+
+.construct-plan-plus-icons > p {
+  font-weight: 700;
+}
+.construct-pack-plus-icons-parents-card > :nth-child(2) {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-weight: 500;
+}
+
+.construct-lets-build-btn-card {
+  width: 45%;
+  background-color: #f15a29;
+  padding: 10px 10px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-radius: 10px; */
+  cursor: pointer;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 95% 100%, 0 100%);
+}
+
+.construct-lets-build-btn-card > button {
+  font-size: 20px;
+  color: #fff;
+
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 546px) {
+  .construction-pack-container {
+    padding: 40px;
+  }
+  .construction-pack-first-inner-card > h1 {
+    font-size: 6.3vw;
+  }
+  .construction-pack-container > p {
+    text-align: center;
+  }
+  .construction-pack-main-card {
+    flex-direction: column;
+  }
+  .constriction-pack-inner-card {
+    width: 100%;
+  }
+  .constriction-pack-inner-card > h3 {
+    font-size: 3.2vw;
+    text-align: center;
+  }
+  .construct-lets-build-btn-card {
+    width: 80%;
+  }
+}
+
+@media (min-width: 547px) and (max-width: 768px) {
+  .constriction-pack-inner-card {
+    width: 70%;
+  }
+}
